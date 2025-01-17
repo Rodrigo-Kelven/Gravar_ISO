@@ -20,12 +20,14 @@ De simples entendimeto, o script usará a biblioteca ***os*** para listar os dis
   chmod +x gravar_iso.sh
   ./gravar_iso.sh
 ```
-    
-## Melhorias
 
-- Criação de uma interface intuitiva
-- Remoção/restauração e limpeza de discos
-- Mais confiabilidade para não ter perca de desempenho
+## Novas Funcionalidades:
+
+  - Confirmação antes da gravação: O usuário deve confirmar antes de prosseguir com a gravação da ISO, evitando sobrescritas acidentais.
+  - Verificação de disco montado: O script verifica se o disco está montado e oferece a opção de desmontá-lo.
+  - Limpeza de disco: Adicionada a funcionalidade para limpar o disco, que sobrescreve os dados com zeros.
+  - Menu interativo: O usuário pode escolher entre gravar uma ISO, limpar um disco ou sair do script.
+
 
 # Contribuições
 
