@@ -31,7 +31,7 @@ De simples entendimeto, o script usará a biblioteca ***os*** para listar os dis
 
 # Contribuições
 
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.;)
 
 
 ## Autores
