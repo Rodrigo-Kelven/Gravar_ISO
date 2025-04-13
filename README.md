@@ -1,5 +1,6 @@
 
 ## Gravador de ISO
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
 
 Script criado com o objetivo de facilitar a criação de pendrives/discos com imagens ISO.
 De simples entendimeto, o script usará a biblioteca ***os*** para listar os discos e a biblioteca ***subprocess*** para executar o comando dd no Linux.
