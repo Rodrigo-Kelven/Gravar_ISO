@@ -27,7 +27,7 @@ obter_caminho_iso() {
     local caminho
     while true; do
         read -rp "Digite o caminho completo para a imagem ISO: " caminho
-        if [[ -f "$caminho" && "$caminho" == *.iso ]]; then
+        if [[ -f "$caminho" && ("$caminho" == *.iso || "$caminho" == *.img) ]]; then
             echo "$caminho"
             return
         else
